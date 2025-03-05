@@ -1,0 +1,781 @@
+/* Theme Name: aaaaa
+Version: 1.0 */
+
+html{
+    font-size: 62.5%;
+}
+
+/* 背景の動画ここから */
+.video_wrapper{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.video_wrapper video{
+    object-fit: cover;
+}
+/* 背景の動画ここまで */
+
+/* headerここから */
+header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+
+.header_sound{
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.header_menu ul{
+    display: flex;
+    padding-left: 0;
+}
+
+.header_menu ul li{
+    list-style: none;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    letter-spacing:0.1rem;
+}
+
+.header_reserve{
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.header_reserve a{
+    color: white;
+    text-decoration: none;
+}
+
+.system_button{
+    width: 140px;
+    height: 60px;
+    background-color: #5c7774;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reserve_button{
+    width: 110px;
+    height: 60px;
+    background-color: #b69f7e;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta_button{
+    width: 60px;
+    height: 60px;
+    background-color: #8e8a85;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* headerここまで */
+
+/* ヒーローセクションここから */
+.hero_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo h1{
+    color: white;
+    font-size: 6rem;
+    letter-spacing: 1.7rem;
+}
+
+.recruitment{
+    display: flex;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+}
+
+.recruitment a{
+    color: white;
+    text-decoration: none;
+}
+
+.recruitment_left{
+    width: 110px;
+    height: 30px;
+    letter-spacing: 0.01rem;
+    text-align: center;
+    margin-right: 20px;
+}
+/* ヒーローセクションここまで */
+
+/* FOR YOUR DAILY STYLEここから */
+.consept_wrapper{
+    width: 96%;
+    border:1px solid #fff;
+    margin: 0 auto 40px;
+    padding: 10px;
+}
+
+.foryour{
+    background-color: rgba(255, 255, 255, 0.85);
+    padding-top: 90px;
+    padding-bottom: 150px;
+    color: #66615a;
+}
+
+.foryour_text{
+    width: 80%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.foryour_text h2{
+    font-size: 3.3rem;
+    margin-bottom: 35px;
+    
+}
+.foryour_text p{
+    font-size: 1.5rem;
+    margin-bottom: 27px;
+}
+/* FOR YOUR DAILY STYLEここまで */
+
+/* YOUR DREAMここから */
+.dream_wrapper{
+    width: 96%;
+    border:1px solid #fff;
+    margin: 0 auto 40px;
+    padding: 10px;
+}
+
+.dream{
+    background-color: rgba(92, 119, 116, 0.85);
+    padding-top: 90px;
+    padding-bottom: 150px;
+}
+
+.dream_contents{
+    width: 80%;
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.dream_img{
+    width: 40%;
+}
+
+.dream_img img{
+    width: 100%;
+}
+
+.dream_text{
+    width: 50%;
+    color: #fff;
+}
+
+.dream_text h2{
+    font-size: 3.4rem;
+}
+
+.dream_text p{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.dream_text a{
+    width: 240px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #5c7774;
+    font-size: 1.5rem;
+}
+
+.dream_text a:hover{
+    opacity: 0.7;
+}
+
+a{
+    transition: opacity 0.6s;
+}
+/* YOUR DREAMここまで */
+
+/* INTERIORここから */
+.interior_wrapper{
+    background-color: rgba(255, 255 ,255 ,0.85);
+    color: #66615a;
+    padding: 85px 0 63px;
+}
+
+.interior_title{
+    width: 80%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding-bottom: 42px;
+}
+
+.interior_title h2{
+    font-size: 3.6rem;
+    letter-spacing: 0.05rem;
+}
+
+.slide_top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.slide_top img{
+    width: 32%;
+}
+
+.cieca_cafe{
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 37px;
+    /* margin: 37px auto 0; */
+}
+
+.cieca_cafe_text{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.cieca_cafe_text h3{
+    font-size: 2rem;
+    padding-right: 70px;
+}
+
+.cieca_cafe_text p{
+    font-size: 1.4rem;
+    line-height: 1.7;
+}
+/* INTERIORここまで */
+
+/* menuここから */
+.menu_wrapper{
+    width: 95.87%;
+    border: 1px solid #fff;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.menu{
+    background-color: rgba(174,165,150,0.85);
+    padding-top: 84px;
+    padding-bottom: 105px;
+}
+
+.menu h2{
+    color: #ffff;
+    font-size: 3.6rem;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.menu_table{
+    display: flex;
+    max-width: 980px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.menu_table table{
+    width: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.menu_table table tr th{
+    text-align: left;
+    width: 55%;
+    font-weight: normal;
+}
+
+.menu_table table tr td{
+    text-align: center;
+    width: 30%;
+}
+
+.menu_title{
+    padding-bottom: 9px;
+}
+
+.table_boder{
+    /* border-bottom: 1px solid #fff;
+    width: 100%;
+    height: 1px;
+    margin: 50px auto; */
+}
+
+.menu_title span{
+    margin-left: 20px;
+}
+/* menuここまで */
+
+/* <!-- ４つ目のテーブル ここから--> */
+
+
+/* <!-- ４つ目のテーブル ここまで--> */
+
+/* <!-- 5つ目のテーブル ここから--> */
+
+.comment p{
+    font-size: 1.4rem;
+    line-height: 1.7;
+    color: #fff;
+    margin-bottom: 4px;
+    }
+    
+/* <!-- staff紹介ここから --> */
+    .designers_section{
+    width: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.85) 100%);
+
+    }
+    .designers_wrapper{
+    width: 100%;
+    padding-top: 82px;
+    padding-bottom: 77px;
+    box-sizing: border-box;
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.85) 100%); */
+    }
+    
+    .designers_wrapper h2{
+    width: 80%;
+    max-width: 980px;
+    padding-bottom: 43px;
+    margin: 0 auto;
+    font-size: 3.6rem;
+    /* line-height: 1.5px; */
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 0.05em;
+}
+    
+    .designers_wrapper ul{
+    width: 80%;
+    max-width: 980px;
+    padding-bottom: 43px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding-left: 0;
+    }
+
+    /* 追加分 */
+.designers_wrapper li{
+    font-size: 1.6rem;
+    margin-right: 3rem;
+}
+
+.designers_fhoto{
+    max-width: 980px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.designers_people{
+    /* background-color: #fff; */
+    padding: 20px 20px 40px 20px;
+    width: 31%;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.designers_people img{
+    width: 100%;
+}
+
+.designers_people h4{
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #66615a;
+    font-weight: normal;
+}
+
+.designers_people p{
+    font-size: 1rem;
+    color: #b2a98c;
+    margin-top: 0;
+}
+
+/* .harazyuku{
+    display: inline-block;
+    float:right;
+    text-align: center;
+    color: #84807b;
+    border: 1px solid #84807b;  
+    border-radius: 9999px;
+    margin-top: -6px;
+    padding: 3px 9px;
+} */
+
+/* <!-- staff紹介ここから --> */
+/* .designers_section{
+    width: 100%;
+    }
+    .designers_wrapper{
+    width: 100%;
+    padding-top: 82px;
+    padding-bottom: 77px;
+    box-sizing: border-box;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.85) 100%);
+    }
+    
+    .designers_wrapper h2{
+    width: 80%;
+    max-width: 980px;
+    padding-bottom: 43px;
+    margin: 0 auto;
+    font-size: 3.6rem;
+    line-height: 1.5px;
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 0.05em;
+    
+    }
+    
+    .designers_wrapper ul{
+    width: 80%;
+    max-width: 980px;
+    padding-bottom: 43px;
+    list-style: none;
+    display: flex;
+    line-height: 1.7;
+    font-size: 1.6rem;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    } */
+    
+    /* <!-- staff写真ここから --> */
+    
+    .desiners-card-wrapper{
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.85) 100%); */
+    opacity: 1;
+    display: block;
+    }
+    
+    .desiners-card-inner{
+    display: flex;
+    width: 80%;
+    max-width: 980px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0 3.5%;
+    }
+    
+    .desiners-card{
+    background-color: #fff;
+    padding: 20px;
+    width: 31%;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    }
+    
+    .desiners-card img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    }
+    
+    .desiners-card h4{
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 5px;
+    }
+    
+
+/* アクセスとコンタクトここから */
+.access_contacts{
+    width: 95.87%;
+    border: 1px solid #fff;
+    margin: 30px auto;
+    padding: 10px;
+    margin-bottom: 600px;
+}
+
+.access_contacts_box{
+    padding-top: 84px;
+    padding-bottom: 105px;
+    background: linear-gradient(to right, rgba(132, 128, 123, 1) 0%, rgba(132, 128, 123, 0.85) 100%);
+    color: #fff;
+}
+
+.access_h2{
+    max-width: 980px;
+    margin: 0 auto;
+    font-size: 2.3rem;
+}
+
+.access_flex{
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.access_box{
+    width: 48%;
+}
+
+.access_box h3{
+    font-size: 2.2rem;
+}
+
+.access_box ul{
+    padding-left: 0;
+}
+
+.access_box ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.access_box a{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.openhours{
+    background-color: #928f8a;
+    padding: 40px 35px;
+    margin-top: 40px;
+    font-size: 1.4rem;
+}
+
+.openhours table{
+    width: 350px;
+}
+
+.td_pr{
+    padding-right: 45px;
+}
+
+.openhours table img{
+    width: 116px;
+    padding: 10px;
+}
+
+td span{
+    display: block;
+}
+
+.vertical{
+    vertical-align: top;
+}
+
+.arrow{
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: #333;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow p{
+    font-size: 20px;
+}
+
+.arrow:hover{
+    opacity: 0.9;
+}
+
+.pagetop_text{
+    color: #fff;
+    text-align: center;
+}
+
+/* footer */
+.copyright{
+    background-color: #726c66;
+    color: #fff;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.copyright a{
+    color: #fff;
+    position: absolute;
+    right: 30px;
+}
+
+/* 1200px以下になった時の処理 */
+@media(max-width:1200px){
+    .header_menu,.header_reserve{
+        display: none;
+    }
+}
+
+/* 840px以下になった時の処理 */
+@media(max-width:840px){
+    .foryour{
+        padding-top: 20px;
+        padding-bottom: 24px;
+    }
+
+    .foryour_text h2{
+        font-size: 2.2rem;
+    }
+    
+    .dream{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .dream_contents{
+        display: block;
+    }
+    
+    .dream_img{
+        width: 100%;
+    }
+    
+    .dream_text{
+        width: 100%;
+    }
+    
+    .dream_text h2{
+        font-size: 2.2rem;
+    }
+    
+    .dream_text p{
+        margin-bottom: 33px;
+    }
+
+    .interior_wrapper{
+        padding: 40px 0 40px;
+    }
+    
+    .interior_title{
+        padding-bottom: 0;
+    }
+    
+    .interior_title h2{
+        font-size: 2.2rem;
+    }
+
+    .cieca_cafe_text{
+        display: block;
+        margin:0 5rem;
+    }
+    
+    .menu{
+        padding-top: 44px;
+        padding-bottom: 53px;
+    }
+    
+    .menu h2{
+        width: 90%;
+        font-size: 2.2rem;
+    }
+    
+    .menu_table{
+        display: block;
+        width: 90%;
+    }
+    
+    .menu_table table{
+        width: 100%;
+    }  
+
+    .designers_wrapper{
+        padding-top: 50px;
+        padding-bottom: 0px;
+        }
+
+    .designers_wrapper h2{
+        font-size: 2.2rem;
+    }
+
+    .access_contacts{
+        margin-bottom: 100px;
+    }
+
+    .access_contacts_box{
+        padding-top: 43px;
+        padding-bottom: 43px;
+    }
+    
+    .access_h2{
+        width: 90%;
+    }
+
+    .access_h2 h2{
+        font-size: 2.3rem;
+    }
+    
+    .access_flex{
+        display: block;
+        width: 90%;
+    }
+    
+    .access_box{
+        width: 100%;
+    }
+    
+    .access_box h3{
+        font-size: 2.2rem;
+    }
+    
+    .access_box ul{
+        padding-left: 0;
+    }
+    
+    .access_box ul li{
+        list-style: none;
+        font-size: 1.5rem;
+    }
+    
+    .access_box a{
+        color: #fff;
+        font-size: 1.2rem;
+    }
+}
+
+/* 480px以下になった時の処理 */
+@media (max-width:480px) {
+    .logo h1{
+        font-size: 3rem;
+    }
+
+    .openhours table{
+        width: 100%;
+    }
+}
