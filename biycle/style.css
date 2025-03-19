@@ -108,8 +108,8 @@ section .pictures ul{
 }
 
 section .pictures ul li img{
-    width: 270px;
-    height: 179px;
+    width: 100%; /*河村：横幅をpx単位で指定するとレスポンシブ対応が難しいため、周りのdivタグに対してpxや%で指定するか、画像に対して%で指定することが多いです。横幅を何も指定していないとバグの原因になるので、今回は%で指定してあげましょう。*/
+    height: 179px; 
     margin-bottom: 0;
 }
 
@@ -140,9 +140,6 @@ footer p{
 }
 
 
-
-
-
 /* respnsible designe */
 @media(max-width:840px){
     header{
@@ -158,7 +155,6 @@ footer p{
         padding-left: 0;
     }
 
-    
 
     section .contents{
         display: block;
@@ -175,13 +171,16 @@ footer p{
     
     section .pictures ul{
         display: block;
-        max-width: 358px;
+        /* max-width: 358px; /*河村：タブレットサイズになったときに要素が左になってしまうのと、横幅が狭いので解除して他で命令を当てて整えます/* */
     }
 
-    section .pictures ul li .img{
+    /* section .pictures ul li .img{
         max-width: 100%;
-    }
+    } */
 
+    section .pictures ul li img{
+        height: auto; /*河村：元々画像の高さをpxで指定していたので、レスポンシブになった時に高さをautoとすることで自動で高さを調整してくれるようになります。*/
+    }
 }
 
 
