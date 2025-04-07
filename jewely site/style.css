@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+}
+
+body .mainvisual{
+    display: inline-block;
+    margin: 57px 72px 0 72px;
+    
+}
+
+body img{
+    max-width: 1290px;
+}
+
+
+
+/* headerここからです */
+
+header{
+    max-width: 1290px;
+    display: flex;
+    align-items: center;    
+    font-size: 14px;
+    padding: 32px 0px;
+    margin:  0 auto 30px auto;
+
+
+}
+header h1{
+    margin: 0;
+    margin-right: 50px;
+}
+
+header img{
+    max-width: 110px;
+    display: inline-block;
+   
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    width: 181px;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0;
+}
+
+header li{
+    font-size: 14px;
+}
+/* headerここまでです */
+
+/* mainここからです */
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    align-content: center;
+    padding: 0 18px;
+}
+
+
+main .concept-section img{
+    width: 482px;
+    max-width: 100%;
+}
+
+main .concept-section{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 60px;
+    
+}
+
+main .concept-section .section{
+    width: 50%;
+    max-width: 345px;
+    padding: 0 7%;
+    
+}
+main .concept-section .section h2{
+    margin-top: 0;
+    margin-bottom: 4px;
+
+}
+main .concept-section .section span{
+    margin: 0 0 6px;
+
+}
+main .concept-section .section p{
+    margin: 0;
+}
+/* <!-- /* mainここまでです */  
+
+/* footerここから */
+footer{
+    width: 964px;
+    margin: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    width: 110px;
+}
+
+footer p{
+    font-size: 14px;
+    color: black;
+}
+
+/* respnsible designe */
+@media(max-width:840px){
+    .mainvisual img{
+        max-width: 390px;
+        height: 444px;
+        object-fit: cover;
+    }
+
+    header{
+        width: 100%;
+        font-size: 14px;
+        padding: 20px 18px;
+    }
+
+    header ul{
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    main .concept-section{
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        margin-bottom: 60px;
+        
+    }
+    
+
+    /* header h1{
+        margin: 0;
+        margin-right: 50px;
+    }
+    
+    header img{
+        max-width: 110px;
+        display: inline-block;
+       
+    }
+    
+    header ul{
+        display: flex;
+        list-style: none;
+        width: 181px;
+        justify-content: space-between;
+        padding-left: 0;
+        margin: 0;
+    }
+    
+    header li{
+        font-size: 14px;
+    }
+    /* headerここまでです */
+    
+
+    
+
+}
